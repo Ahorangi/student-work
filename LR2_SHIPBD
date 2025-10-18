@@ -13,6 +13,130 @@
 показать разнообразие источника) (можно указать название, ссылку на набор
 данных (страницу с набором данных), тип данных).
 
-1- Данные смертей и сражений из игры престолов 
-https://www.kaggle.com/mylesoneill/game-of-thrones
+
+Kaggle
+kaggle.com/datasets
 Открытый
+Просмотр и прямая загрузка через веб-интерфейс; для некоторых конкурсов требуется регистрация.
+Структурированные, Неструктурированные; Естественный язык; Аудио, видео и графика.
+  Поездки на такси в Нью-Йорке (структурированные) - https://www.kaggle.com/datasets/new-york-city/nyc-trip-data
+  Рентгеновские снимки грудной клетки (пневмония) (графика) - https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+  Обнаружение мошенничества с кредитными картами (структурированные) - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+Hugging Face Datasets	
+huggingface.co/datasets	
+Открытый	
+Веб-интерфейс для поиска и загрузки; многие наборы можно загрузить напрямую через код с использованием их библиотеки.	
+Структурированные, Неструктурированные	Естественный язык; Аудио; Структурированные	
+  GLUE (бенчмарк для оценки моделей НЛП, естественный язык) - https://huggingface.co/datasets/glue
+  LibriSpeech (корпус аудиокниг, аудио) - https://huggingface.co/datasets/librispeech_asr
+
+Registry of Open Data on AWS	
+registry.opendata.aws	
+Открытый	
+Данные хранятся на AWS; доступ через сервисы AWS (например, S3) с помощью кода или специализированных инструментов.	
+Структурированные; Неструктурированные; Аудио, видео и графика; Машинные данные	
+  Снимки Landsat (спутниковые изображения, графика) - https://registry.opendata.aws/landsat-8/
+  Common Crawl (архив веб-краулинга, естественный язык, неструктурированные) - https://registry.opendata.aws/commoncrawl/
+
+Azure Open Datasets	
+azure.microsoft.com/services/open-datasets	
+Открытый	
+Доступны через сервисы Azure; можно использовать в Azure Machine Learning studio или напрямую из хранилища.	
+Структурированные; Неструктурированные	
+  Данные такси Нью-Йорка (структурированные) - https://azure.microsoft.com/services/open-datasets/catalog/nyc-taxi-limousine-commission-yellow-taxi-trip-records/
+  Погодные данные NOAA (структурированные) - https://azure.microsoft.com/services/open-datasets/catalog/noaa-global-forecast-system/
+
+UCI Machine Learning Repository	
+archive.ics.uci.edu/ml	
+Открытый	
+Прямая загрузка файлов наборов данных (CSV, ARFF и др.) через простой веб-интерфейс.	
+В основном структурированные
+  Качество вина (структурированные) - https://archive.ics.uci.edu/ml/datasets/wine+quality
+  Ирисы Фишера (структурированные) - https://archive.ics.uci.edu/ml/datasets/iris
+  Перепись населения (структурированные) - https://archive.ics.uci.edu/ml/datasets/adult
+
+data.world	
+data.world	
+Открытый	
+Поиск и просмотр через веб-интерфейс; наборы можно предварительно просмотреть, скачать или иногда запросить через API.	
+В основном структурированные
+  Бюджеты правительства США (структурированные) - https://data.world/datasets/government-budgets
+  Данные об успеваемости в школах (структурированные) - https://data.world/datasets/education-performance
+
+Papers With Code	
+paperswithcode.com/datasets	
+Открытый	
+Сайт агрегирует ссылки на наборы данных; переход на оригинальные страницы для загрузки.	
+Структурированные, Неструктурированные; Естественный язык, Аудио, видео и графика	
+  ImageNet (графика) - https://paperswithcode.com/dataset/imagenet
+  MS COCO (графика) - https://paperswithcode.com/dataset/coco
+
+
+Google Cloud Public Datasets	
+cloud.google.com/public-datasets	
+Открытый	
+Наборы размещены в Google Cloud Platform; для доступа требуется проект GCP (есть бесплатный tier).	
+Структурированные, Неструктурированные	
+  Исторические данные по Биткоину (структурированные) - https://cloud.google.com/bigquery/public-data/bitcoin
+  Индикаторы мирового развития (структурированные) - https://cloud.google.com/bigquery/public-data/world-bank
+
+Baidu Apolloscapes	
+apolloscape.auto	
+Условно доступный	
+Вероятно, требуется регистрация или запрос на доступ для исследований в области автономного вождения.	
+Неструктурированные	Графика; Машинные данные	
+  Images with 26 object categories (графика) - http://apolloscape.auto/scene.html
+
+Cityscapes Dataset	
+www.cityscapes-dataset.com	
+Открытый	
+Набор данных можно скачать после заполнения регистрационной формы на официальном сайте.	
+Неструктурированные	Графика	
+  Cityscapes (графика) - https://www.cityscapes-dataset.com/
+ 
+Stanford Dogs Dataset	
+vision.stanford.edu/aditya86/ImageNetDogs	
+Открытый	
+Прямая загрузка архива изображений с сайта университета.	
+Неструктурированные	Графика	
+  Stanford Dogs (графика) - http://vision.stanford.edu/aditya86/ImageNetDogs/
+
+LSUN	
+www.yf.io/p/lsun	
+Открытый	
+Набор данных доступен для загрузки со страницы проекта.	
+Неструктурированные,	Графика	
+  LSUN (графика) - https://www.yf.io/p/lsun
+
+MIMIC-III	
+mimic.physionet.org	
+Условно доступный	
+Для доступа требуется пройти курс по этике (CITI) и подписать соглашение об использовании данных.	
+Структурированные, Неструктурированные (текст), Естественный язык	
+  MIMIC-III Clinical Database (структурированные, естественный язык) - https://mimic.physionet.org/
+
+Data.gov (США)	
+data.gov	
+Открытый	
+Веб-портал с поиском и фильтрами; данные можно скачать в различных форматах (CSV, JSON и др.).	
+Структурированные 
+  Национальная статистика самоубийств (1985-2016) (структурированные)
+  Инциденты насилия с применением огнестрельного оружия (2013-2018) (структурированные)
+
+Data.gov (Россия)	
+data.gov.ru	
+Открытый	
+Официальный портал; данные можно копировать, публиковать и использовать в коммерческих/некоммерческих целях без заключения договора.	
+Структурированные	
+  Данные о работе системы здравоохранения
+  Статистические данные по отрасли культуры
+
+ФИПС (Россия)	
+www1.fips.ru	
+Смешанный (Открытый/Платный)	
+Предоставляет как бесплатный (ограниченный), так и платный доступ к базам данных по российской интеллектуальной собственности.	
+Структурированные
+  
+\Перспективные Изобретения (полнотекстовые)
+  Зарегистрированные программы для ЭВМ
